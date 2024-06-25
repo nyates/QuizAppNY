@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">QuizAppNY</string>
+    <string name="app_name">PiQuizAppNY</string>
+    <string name="email_btn_text">SEND SCORE BY EMAIL</string>
+    <string name="true_btn_text">TRUE</string>
+    <string name="q1_text">Pi is equal to 3.</string>
+    <string name="pi_is_irrational">Pi is irrational.</string>
+    <string name="score_0">Score: 0</string>
 </resources>
