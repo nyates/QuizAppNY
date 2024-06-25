@@ -30,7 +30,7 @@ public class ScoreActivity extends AppCompatActivity {
         emailBTN = (Button) findViewById(R.id.emailBTN);
         incomingIntent = getIntent();
         score = incomingIntent.getIntExtra("score",0);
-        scoreTV.setText("Score: " + score);
+        scoreTV.setText(getString(R.string.score) + score);
 
         emailBTN.setOnClickListener(new View.OnClickListener() {
             @Override
